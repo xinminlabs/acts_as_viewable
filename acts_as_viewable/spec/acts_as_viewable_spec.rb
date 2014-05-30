@@ -1,0 +1,2 @@
+describe ActsAsViewable do
+end
