@@ -14,7 +14,7 @@ And then execute:
 
 ## Usage
 
-'''ruby
+```ruby
 class Viewable < ActiveRecord::Base
   acts_as_viewable
 end
@@ -26,7 +26,7 @@ end
 @viewer.view!(viewable)
 @viewer.viewed?(viewable)
 @viewable.view_by(@viewer)
-'''
+```
 
 ## Contributing
 
